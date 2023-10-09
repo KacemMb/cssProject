@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+:root {
+    --mainColor:#6E07F3;
+}
+/* start of header designe*/
+header img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0 0 15%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navigation {
+    margin-right: 15%;
+}
+
+#navigation>* {
+    color: black;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-left: 15px;
+}
+#colornow {
+    color: var(--mainColor);
+}
+/* end of header designe*/
+/* start of main designe*/
+main {
+    width: 70%;
+    margin: 80px 15%;
+}
+main div {
+    border: var(--mainColor) solid;
+    border-radius: 20px;
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 33%;
+}
+main h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 2.5em;
+}
+main div h3 {
+    margin-top: 10px;
+}
+/* end of main designe*/
+/* start of footer designe*/
+footer {
+    display: block;
+    background-color: var(--mainColor);
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+footer img {
+    width: 40px;
+}
+footer a {
+    margin-left: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+footer p {
+    margin-left: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: black;
+}
+/* end of footer designe*/
